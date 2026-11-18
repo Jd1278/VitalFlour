@@ -1,0 +1,44 @@
+[
+  {
+    "path": "public\\assets\\hero\\hero-mobile.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 94322,
+    "status": "AI-generated concept, not final packaging"
+  },
+  {
+    "path": "public\\assets\\hero\\hero-desktop.webp",
+    "width": 1920,
+    "height": 800,
+    "bytes": 177880,
+    "status": "AI-generated concept, not final packaging"
+  },
+  {
+    "path": "public\\assets\\ingredients\\ingredients.webp",
+    "width": 1000,
+    "height": 1000,
+    "bytes": 182852,
+    "status": "AI-generated concept, not final packaging"
+  },
+  {
+    "path": "public\\assets\\products\\arracacha.webp",
+    "width": 1000,
+    "height": 1000,
+    "bytes": 108878,
+    "status": "AI-generated concept, not final packaging"
+  },
+  {
+    "path": "public\\assets\\products\\choclo.webp",
+    "width": 1000,
+    "height": 1000,
+    "bytes": 120978,
+    "status": "AI-generated concept, not final packaging"
+  },
+  {
+    "path": "public\\assets\\hero\\subscription.webp",
+    "width": 1200,
+    "height": 900,
+    "bytes": 140204,
+    "status": "AI-generated concept, not final packaging"
+  }
+]
