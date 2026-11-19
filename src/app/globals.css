@@ -283,3 +283,23 @@ h3 { font-size: 2.2rem; }
 .intro-video form { position: absolute; right: max(20px, env(safe-area-inset-right)); bottom: max(24px, env(safe-area-inset-bottom)); }
 .intro-video button { border: 1px solid var(--forest); }
 html:has(.intro-video[open]) { overflow: hidden; }
+
+.recipe-section { padding-block: 4rem; background: var(--forest); color: var(--cream); }
+.recipe-intro { margin-block: 1rem 2rem; }
+.recipe-grid { display: grid; gap: 2rem; }
+.recipe-grid article { border-top: 1px solid var(--wheat); padding-top: 1.5rem; }
+.recipe-grid article p { margin-top: 1rem; }
+.reviews-section { padding-block: 4rem; }
+.testimonials { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,16rem),1fr)); gap: 1rem; }
+.testimonial { margin: 0; padding: clamp(1.2rem,2.2vw,2rem); border: 1px solid #cfc5b1; border-radius: 10px; background: #fcfaf4; }
+.testimonial figcaption { display: flex; align-items: center; gap: .8rem; }
+.initials { width: 2.8rem; height: 2.8rem; display: grid; place-items: center; border-radius: 50%; color: #294333; background: #e1eadc; font-weight: 700; }
+.testimonial:nth-child(2) .initials { background: #efe0be; }
+.testimonial:nth-child(3) .initials { background: #e9dacf; }
+.testimonial-score { display: flex; gap: 3px; margin-block: 1.2rem .8rem; }
+.testimonial-score span { display: grid; place-items: center; width: 1.25rem; height: 1.25rem; line-height: 1; background: var(--forest); color: white; }
+.testimonial-score .unfilled { background: #e1e5dc; color: var(--forest); }
+.testimonial blockquote { margin: 0; line-height: 1.65; }
+.about-copy h3 { font-size: clamp(2.5rem,5vw,5rem); }
+@media (min-width:768px) { .recipe-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+

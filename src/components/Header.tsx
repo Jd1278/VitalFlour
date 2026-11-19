@@ -5,7 +5,7 @@ import { Brand } from "./Brand";
 
 export const navigation = [
   ["inicio", "Inicio"], ["historia", "Nuestra historia"], ["productos", "Productos"],
-  ["suscripciones", "Suscripciones"], ["contacto", "Contacto"],
+  ["recetas", "Recetas"], ["contacto", "Contacto"],
 ] as const;
 
 export function Header() {

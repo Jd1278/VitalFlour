@@ -52,8 +52,5 @@ export function IntroVideo() {
 
   return <dialog ref={dialog} className="intro-video" aria-label="Introducción de VitalFlour">
     <video ref={video} muted playsInline preload="none" aria-hidden="true" />
-    <form method="dialog"><button className="button button-cream" onClick={() => {
-      try { sessionStorage.setItem(seenKey, "1"); } catch { /* Optional persistence. */ }
-    }}>Omitir introducción</button></form>
   </dialog>;
 }
