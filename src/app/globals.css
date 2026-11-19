@@ -323,3 +323,7 @@ html:has(.intro-video[open]) { overflow: hidden; }
 .testimonial .initials { flex-shrink: 0; }
 .testimonial blockquote { margin-top: 1.5rem; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* Preserve the complete package when switching between portrait and landscape assets. */
+.product-image { object-fit: contain; }
+

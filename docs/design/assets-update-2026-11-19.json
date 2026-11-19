@@ -1,0 +1,68 @@
+[
+  {
+    "source": "hero-inicio.png",
+    "target": "hero/hero-inicio.webp",
+    "format": "webp",
+    "width": 1199,
+    "height": 896,
+    "channels": 4,
+    "premultiplied": false,
+    "hasAlpha": true,
+    "size": 153310
+  },
+  {
+    "source": "pack-250g.png",
+    "target": "products/pack-250g.webp",
+    "format": "webp",
+    "width": 1200,
+    "height": 900,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 127042
+  },
+  {
+    "source": "pack-400g.png",
+    "target": "products/pack-400g.webp",
+    "format": "webp",
+    "width": 1200,
+    "height": 896,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 147320
+  },
+  {
+    "source": "sobre-40g.jpeg",
+    "target": "products/sobre-40g.webp",
+    "format": "webp",
+    "width": 765,
+    "height": 1024,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 46758
+  },
+  {
+    "source": "arepa-de-choclo.png",
+    "target": "recipes/arepa-actualizada.webp",
+    "format": "webp",
+    "width": 1200,
+    "height": 896,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 173920
+  },
+  {
+    "source": "colocada-de-arracacha.png",
+    "target": "recipes/colada-actualizada.webp",
+    "format": "webp",
+    "width": 1024,
+    "height": 765,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 88284
+  }
+]

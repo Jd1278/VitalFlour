@@ -10,7 +10,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "VitalFlour · Premezclas de arracacha y choclo",
-  description: "Explora VitalFlour: premezclas de arracacha y choclo en presentaciones de 40 g, 400 g y 1 kg. Catálogo conceptual.",
+  description: "Explora VitalFlour: premezclas de arracacha y choclo en presentaciones de 40 g, 250 g y 400 g. Catálogo conceptual.",
   robots: { index: false, follow: false },
   icons: { icon: "/assets/brand/logo-original.png" },
 };

@@ -1,3 +1,9 @@
+# Catálogo actualizado — 19 de noviembre de 2026
+
+El usuario confirmó las presentaciones **40 g, 250 g y 400 g**, sustituyendo la lista anterior. El selector inicia en 40 g y usa las imágenes suministradas sobre-40g.jpeg, pack-250g.png y pack-400g.png según tamaño, para ambos sabores. Se retiran la consulta de presentación y su leyenda conceptual en Productos, y la nota conceptual del footer. Las imágenes de historia, hero y recetas se actualizan con los archivos suministrados; el manifiesto técnico está en docs/design/assets-update-2026-11-19.json.
+
+---
+
 # Actualización aprobada — 19 de noviembre de 2026
 
 El usuario confirmó que la presentación pequeña es de **40 g de producto**, en sustitución de los 15 g indicados en la especificación original de abajo. Las presentaciones vigentes son 40 g, 400 g y 1 kg. Los 15 g de carbohidratos citados en las recetas no son el peso del sobre. El usuario declaró aprobados los datos suministrados para las dos recetas y autorizados los tres testimonios reales; esta implementación reproduce ese contenido sin verificación documental independiente. No se añaden sabores al catálogo.

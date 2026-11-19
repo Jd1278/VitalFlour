@@ -15,16 +15,6 @@ export function Hero() {
           <source media="(max-width: 767px)" srcSet="/assets/hero/hero-mobile.webp" width={800} height={800} />
           <Image src="/assets/hero/header-scene.webp" alt="Empaques conceptuales VitalFlour de arracacha y choclo, acompañados de sus ingredientes" width={1672} height={941} sizes="100vw" loading="eager" fetchPriority="high" />
         </picture></Parallax></div>
-        <figcaption className="hero-captions">
-          <div className="flavor-caption">
-            <span className="flavor-badge">Sabor arracacha</span>
-            <span className="concept-note">Visualización conceptual del empaque</span>
-          </div>
-          <div className="flavor-caption">
-            <span className="flavor-badge">Sabor choclo</span>
-            <span className="concept-note">Visualización conceptual del empaque</span>
-          </div>
-        </figcaption>
       </figure>
     </div>
   </section>;

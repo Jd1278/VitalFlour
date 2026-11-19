@@ -58,3 +58,20 @@ Esta entrega es local. No se publicó el proyecto ni se habilitaron pagos, pedid
 - Tarjeta actualizada para usar el archivo nuevo y sus dimensiones reales.
 - Imagen optimizada inspeccionada visualmente. Lint, typecheck y build ejecutados correctamente.
 - No se repitieron pruebas interactivas o responsive para esta sustitución puntual; se conserva el componente previamente probado.
+
+## Catálogo e imágenes actualizadas
+- Presentaciones confirmadas por el usuario: 40 g, 250 g y 400 g; selección inicial 40 g.
+- Imágenes por tamaño verificadas en navegador en las seis combinaciones de sabor/tamaño. Cambio con flechas del teclado comprobado.
+- Imágenes nuevas en historia, hero (móvil y escritorio) y recetas; todas cargadas en navegador. Manifiesto: docs/design/assets-update-2026-11-19.json.
+- Botón Consultar presentación y leyenda conceptual retirados de Productos; nota Sitio conceptual retirada del footer, verificado en DOM.
+- Separado el texto del hero de la fotografía en escritorio para conservar legibilidad con la nueva composición.
+- Menú móvil abre y cierra al navegar. Anchos comprobados: 390, 768 y 1440 px, sin desbordamiento horizontal. Capturas móvil y escritorio inspeccionadas.
+- Consola sin errores o advertencias observados. Lint, typecheck y build correctos; build repetido tras ajuste final de CSS.
+- Pendientes: lector de pantalla, emulación de movimiento reducido y pruebas en dispositivos físicos.
+
+## Restauración del hero y bolsa de 40 g
+- Restauradas las imágenes originales del hero y su disposición anterior; retiradas las leyendas de sabores y visualización conceptual.
+- Imagen de 40 g sustituida por el archivo suministrado Assets/bolas-40g.png (nombre encontrado), convertido a bolsa-40g.webp. Retirado el texto fijo de presentación individual.
+- Lint, typecheck y build completados correctamente.
+- Navegación a Productos y selección de 250 g, 400 g y 40 g verificadas en navegador; captura del hero original y captura móvil inspeccionadas. A 390 px no hay desbordamiento horizontal; consola sin errores ni advertencias observados.
+- No se repitieron pruebas de lector de pantalla ni movimiento reducido.

@@ -1,7 +1,7 @@
 export const recipes = [
   {
     id: "arepa", title: "Arepa Dorada de Choclo y Arracacha", category: "Sabor salado / Tradicional",
-    image: "/assets/recipes/arepa-de-choclo-ancha.webp", width: 1200, height: 896, alt: "Arepa dorada de choclo presentada para servir",
+    image: "/assets/recipes/arepa-actualizada.webp", width: 1200, height: 896, alt: "Arepa dorada de choclo presentada para servir",
     description: "La misma arepa doradita y suave para toda la familia, con el conteo de carbohidratos exacto en cada unidad.",
     servings: "1 arepa grande (o 2 pequeñas) por sobre.", time: "10 minutos.",
     nutrition: "15 g de carbohidratos netos (usando 1 sobre de 40 g).",
@@ -22,7 +22,7 @@ export const recipes = [
   },
   {
     id: "colada", title: "Colada Cremosa de Arracacha con Canela", category: "Sabor dulce / Reconfortante",
-    image: "/assets/recipes/colada-de-arracacha.webp", width: 1024, height: 765, alt: "Colada cremosa de arracacha con canela",
+    image: "/assets/recipes/colada-actualizada.webp", width: 1024, height: 765, alt: "Colada cremosa de arracacha con canela",
     description: "La receta de los domingos de la abuela, espesa, aromática y sin picos de glucosa.",
     servings: "1 pocillo grande (250 ml) por sobre.", time: "8 minutos.",
     nutrition: "15 g de carbohidratos netos (preparada en agua; si se prepara en leche descremada, aporta ~25 g de carbohidratos netos en total).",
