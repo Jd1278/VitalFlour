@@ -41,3 +41,20 @@ Las capturas del navegador integrado presentan suavizado/compresión propios de 
 - Prueba dinámica con movimiento reducido, lector de pantalla, Safari/Firefox y móvil físico de gama media; medición de rendimiento en dispositivo real.
 
 Esta entrega es local. No se publicó el proyecto ni se habilitaron pagos, pedidos, backend o suscripciones reales.
+
+## Actualización de assets, recetas y testimonios — 19 de noviembre de 2026
+
+- Sustituida imagen de Nuestra historia por pack-40g; añadidas fotos WebP de arepa y colada conservando originales.
+- Recetas completas suministradas en tarjetas con detalles nativos accesibles; testimonios sustituidos sin inventar puntuaciones.
+- Presentación pequeña actualizada a 40 g en catálogo y metadatos, tras confirmación del usuario; aprobación registrada al inicio de los documentos de referencia.
+- Ejecutados lint, typecheck y build correctamente.
+- Navegador: apertura/cierre de receta por Enter, apertura de colada por clic, selección Choclo + 40 g, menú móvil y enlace Recetas comprobados.
+- Imágenes nuevas cargadas sin errores; consola sin errores ni advertencias en la consulta realizada.
+- Capturas inspeccionadas a 390 y 1440 px; ancho del documento 375 y 1425 px respectivamente, sin desbordamiento horizontal. Foco visible del desplegable comprobado.
+- Pendientes: prueba específica de tablet, todas las combinaciones del selector, lector de pantalla y emulación de movimiento reducido. No se realizó validación independiente de las afirmaciones suministradas.
+
+### Sustitución por fotografía ancha de arepa
+- Fuente encontrada: Assets/arepa-de-choclo-ancha.png (no .jpg); copia WebP de 1200 × 896 y 168174 bytes.
+- Tarjeta actualizada para usar el archivo nuevo y sus dimensiones reales.
+- Imagen optimizada inspeccionada visualmente. Lint, typecheck y build ejecutados correctamente.
+- No se repitieron pruebas interactivas o responsive para esta sustitución puntual; se conserva el componente previamente probado.

@@ -5,7 +5,7 @@ export function About() {
   return <section id="historia" className="about-section page-width" aria-labelledby="about-title">
     <div className="section-divider"><h2 id="about-title">Nuestra historia</h2></div>
     <Reveal className="about-grid">
-      <Image className="about-image" src="/assets/ingredients/ingredients.webp" width={1000} height={1000} alt="Composición conceptual de arracacha fresca y choclo sobre lino" sizes="(min-width: 768px) 50vw, 100vw" />
+      <Image className="about-image" src="/assets/products/pack-40g.webp" width={1000} height={1000} alt="Presentación de VitalFlour en sobres de 40 g" sizes="(min-width: 768px) 50vw, 100vw" />
       <div className="about-copy">
         <h3>De Bucaramanga para toda la familia.</h3>
         <p>En nuestra tierra la comida es memoria. Una arepa o una colada reúne a abuelos, hijos y nietos alrededor de la misma mesa.</p>

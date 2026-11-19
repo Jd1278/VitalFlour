@@ -1,11 +1,11 @@
 export type Flavor = "arracacha" | "choclo";
-export type PackageSize = "15g" | "400g" | "1kg";
+export type PackageSize = "40g" | "400g" | "1kg";
 export type ProductVariant = {
   id: string; flavor: Flavor; size: PackageSize; displayName: string; weightLabel: string; image: string;
 };
 export const flavors: Flavor[] = ["arracacha", "choclo"];
 export const sizes: { id: PackageSize; label: string }[] = [
-  { id: "15g", label: "15 g" }, { id: "400g", label: "400 g" }, { id: "1kg", label: "1 kg" },
+  { id: "40g", label: "40 g" }, { id: "400g", label: "400 g" }, { id: "1kg", label: "1 kg" },
 ];
 // Final size-specific packaging is not approved. All sizes deliberately use a
 // clearly labeled flavor concept, never a fabricated size-specific final render.

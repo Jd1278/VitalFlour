@@ -13,7 +13,7 @@ export function Products() {
   const product = products.find(item => item.flavor === flavor && item.size === size)!;
   return <section id="productos" className="products-section page-width" aria-labelledby="products-title">
     <div className="section-heading"><h2 id="products-title">Nuestros productos</h2>
-      <p>Arracacha y choclo en presentaciones de 15 g, 400 g y 1 kg.</p><span className="heading-rule" /></div>
+      <p>Arracacha y choclo en presentaciones de 40 g, 400 g y 1 kg.</p><span className="heading-rule" /></div>
     <Reveal className="product-grid">
       <figure className="product-figure">
         <Image key={flavor} className="product-image" src={product.image} width={1000} height={1000}
@@ -38,7 +38,7 @@ export function Products() {
           </label>)}
         </fieldset>
         <Inquiry subject={`${product.displayName} · ${product.weightLabel}`}>Consultar presentación</Inquiry>
-        <p className="product-note">Presentación de 15 g pendiente de validación técnica.</p>
+        <p className="product-note">Presentación individual: sobre de 40 g.</p>
         <p className="asset-note">Imagen conceptual por sabor; diseño final de cada tamaño por confirmar.</p>
       </div>
     </Reveal>

@@ -1,3 +1,9 @@
+# Actualización aprobada — 19 de noviembre de 2026
+
+El usuario confirmó que la presentación pequeña es de **40 g de producto**, en sustitución de los 15 g indicados en la especificación original de abajo. Las presentaciones vigentes son 40 g, 400 g y 1 kg. Los 15 g de carbohidratos citados en las recetas no son el peso del sobre. El usuario declaró aprobados los datos suministrados para las dos recetas y autorizados los tres testimonios reales; esta implementación reproduce ese contenido sin verificación documental independiente. No se añaden sabores al catálogo.
+
+---
+
 # VitalFlour — Asset Inventory
 
 **Versión:** 1.0  
@@ -91,3 +97,15 @@ El PDF muestra una caja con contenido neto de 400 g y 10 sobres de 40 g. Tambié
 - [ ] Fotografías de ingredientes aprobadas.
 - [ ] Fotografías de recetas aprobadas.
 - [ ] Favicon.
+
+## Assets incorporados — 19 de noviembre de 2026
+
+| Original suministrado | Copia web | Dimensiones | Bytes | Uso |
+|---|---|---|---|---|
+| Assets/pack-40g.jpeg | public/assets/products/pack-40g.webp | 1024 × 765 | 87510 | Nuestra historia |
+| Assets/arepa-de-choclo.jpeg | public/assets/recipes/arepa-de-choclo.webp | 765 × 1024 | 95008 | Receta de arepa |
+| Assets/colocada-de-arracacha.jpeg | public/assets/recipes/colada-de-arracacha.webp | 1024 × 765 | 107658 | Receta de colada |
+
+Originales conservados; conversión WebP calidad 85, orientación automática, sin ampliación.
+
+Actualización: la tarjeta de arepa utiliza ahora Assets/arepa-de-choclo-ancha.png, optimizada como public/assets/recipes/arepa-de-choclo-ancha.webp (1200 × 896, 168174 bytes).

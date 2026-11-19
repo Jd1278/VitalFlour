@@ -1,3 +1,9 @@
+# Actualización aprobada — 19 de noviembre de 2026
+
+El usuario confirmó que la presentación pequeña es de **40 g de producto**, en sustitución de los 15 g indicados en la especificación original de abajo. Las presentaciones vigentes son 40 g, 400 g y 1 kg. Los 15 g de carbohidratos citados en las recetas no son el peso del sobre. El usuario declaró aprobados los datos suministrados para las dos recetas y autorizados los tres testimonios reales; esta implementación reproduce ese contenido sin verificación documental independiente. No se añaden sabores al catálogo.
+
+---
+
 # VitalFlour — Codex Implementation Specification
 
 **Versión:** 1.0  
