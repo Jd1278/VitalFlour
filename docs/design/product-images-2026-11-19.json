@@ -1,0 +1,37 @@
+[
+  {
+    "source": "IMG-20261119-WA0076.jpg",
+    "path": "public/assets/products/choclo-40g.webp",
+    "width": 1200,
+    "height": 896,
+    "bytes": 32952
+  },
+  {
+    "source": "IMG-20261119-WA0075.jpg",
+    "path": "public/assets/products/choclo-250g.webp",
+    "width": 1200,
+    "height": 896,
+    "bytes": 75994
+  },
+  {
+    "source": "IMG-20261119-WA0074.jpg",
+    "path": "public/assets/products/arracacha-40g.webp",
+    "width": 1200,
+    "height": 896,
+    "bytes": 33064
+  },
+  {
+    "source": "IMG-20261119-WA0069.jpg",
+    "path": "public/assets/products/choclo-400g.webp",
+    "width": 1200,
+    "height": 896,
+    "bytes": 90894
+  },
+  {
+    "source": "IMG-20261119-WA0067.jpg",
+    "path": "public/assets/products/arracacha-400g.webp",
+    "width": 1200,
+    "height": 896,
+    "bytes": 92604
+  }
+]

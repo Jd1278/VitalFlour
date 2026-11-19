@@ -15,8 +15,11 @@ export function Products() {
       <p>Arracacha y choclo en presentaciones de 40 g, 250 g y 400 g.</p><span className="heading-rule" /></div>
     <Reveal className="product-grid">
       <figure className="product-figure">
-        <Image key={product.id} className="product-image" src={product.image} width={product.width} height={product.height}
-          alt={`Presentación VitalFlour de ${product.weightLabel}.`} sizes="(min-width: 768px) 50vw, 100vw" />
+        {product.image ? <Image key={product.id} className="product-image" src={product.image} width={product.width} height={product.height}
+          alt={`Premezcla VitalFlour de ${product.flavor}, presentación de ${product.weightLabel}.`} sizes="(min-width: 768px) 50vw, 100vw" />
+          : <div className="product-image product-placeholder" role="img" aria-label={`Imagen pendiente: ${product.displayName}, ${product.weightLabel}`}>
+            <p>Imagen pendiente<br /><strong>{product.displayName} · {product.weightLabel}</strong></p>
+          </div>}
       </figure>
       <div className="product-controls">
         <fieldset className="choice-group flavor-choices"><legend>Sabor</legend>

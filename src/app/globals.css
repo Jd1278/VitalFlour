@@ -78,6 +78,7 @@ h3 { font-size: 2.2rem; }
 .heading-rule { display: block; margin: 22px auto 0; width: 120px; height: 2px; background: var(--wheat); }
 .product-grid { display: grid; gap: 28px; }
 .product-figure { position: relative; }
+.product-placeholder { display: grid; place-items: center; padding: 24px; text-align: center; background: var(--cream); border: 1px solid currentColor; }
 .product-image { width: 100%; aspect-ratio: 1.08; object-fit: cover; border-radius: 12px; animation: product-in .4s ease both; }
 .product-figure figcaption { position: relative; margin: -18px auto 0; width: fit-content; max-width: 95%; text-align: center; background: var(--cream); border-radius: 7px; padding: 6px 14px; font-size: .875rem; }
 .product-controls { display: flex; flex-direction: column; justify-content: center; gap: 20px; min-width: 0; }
