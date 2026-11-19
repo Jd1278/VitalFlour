@@ -12,7 +12,7 @@ export const sizes: { id: PackageSize; label: string }[] = [
 const productImages: Record<Flavor, Record<PackageSize, string | null>> = {
   arracacha: {
     "40g": "/assets/products/arracacha-40g.webp",
-    "250g": null,
+    "250g": "/assets/products/arracacha-250g.webp",
     "400g": "/assets/products/arracacha-400g.webp",
   },
   choclo: {
@@ -24,5 +24,6 @@ const productImages: Record<Flavor, Record<PackageSize, string | null>> = {
 
 export const products: ProductVariant[] = flavors.flatMap(flavor => sizes.map(size => ({
   id: `${flavor}-${size.id}`, flavor, size: size.id, displayName: `Premezcla de ${flavor}`,
-  weightLabel: size.label, image: productImages[flavor][size.id], width: 1200, height: 896,
+  weightLabel: size.label, image: productImages[flavor][size.id], width: 1200,
+  height: flavor === "arracacha" && size.id === "250g" ? 894 : 896,
 })));

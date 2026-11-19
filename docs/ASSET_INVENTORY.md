@@ -1,8 +1,8 @@
 # Fotografías por sabor — 19 de noviembre de 2026
 
-La sección Productos utiliza cinco fotografías adjuntas por el usuario, asignadas por el sabor y contenido neto impreso: WA0076 = choclo 40 g; WA0075 = choclo 250 g; WA0074 = arracacha 40 g; WA0069 = choclo 400 g; WA0067 = arracacha 400 g. Arracacha 250 g muestra un placeholder «Imagen pendiente» porque no se suministró su fotografía. Esta asignación sustituye el uso compartido de imágenes entre sabores. No cambia el catálogo ni añade claims al texto de la página.
+La sección Productos utiliza seis fotografías adjuntas por el usuario, asignadas por el sabor y contenido neto impreso: WA0076 = choclo 40 g; WA0075 = choclo 250 g; WA0074 = arracacha 40 g; WA0069 = choclo 400 g; WA0067 = arracacha 400 g; WA0068 = arracacha 250 g. La última fotografía sustituye el placeholder «Imagen pendiente». Esta asignación sustituye el uso compartido de imágenes entre sabores. No cambia el catálogo ni añade claims al texto de la página.
 
-Copias WebP con calidad 85, sin recorte, de 1200 × 896 px; archivos, dimensiones y pesos en `docs/design/product-images-2026-11-19.json`.
+Copias WebP con calidad 85, sin recorte, de 1200 × 896 px (1200 × 894 px para arracacha 250 g); archivos, dimensiones y pesos en `docs/design/product-images-2026-11-19.json`.
 
 # Catálogo actualizado — 19 de noviembre de 2026
 
